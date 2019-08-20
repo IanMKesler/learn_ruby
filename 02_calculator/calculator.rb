@@ -18,7 +18,7 @@ end
 def multiply (array)
     product = 1
     array.each do |num|
-        product = product*num
+        product *= num
     end
     product
 end
